@@ -1,0 +1,104 @@
+body {
+    font-size: 16px;
+    font-family:'Yusei Magic', sans-serif;
+    color: #ffffff;
+    background-color: #f8e5e5;
+}
+
+
+/** HEADER **/
+
+#header-nav {
+    background-color: #000000;
+    border-radius: 0;
+    border: 0;
+}
+
+#header-nav button {
+    margin-top: 22px;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #fa255e;
+}
+
+.navbar-collapse {
+    border-top: 0;
+}
+
+.navbar-brand, .navbar-nav li a {
+    line-height: 76px;
+    height: 76px;
+    padding-top: 0;
+}
+
+.navbar-brand h1 {
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: 1.8em;
+}
+
+.navbar-brand a:hover {
+    text-decoration: none;
+    text-shadow: 1px 1px 1px #fe9797;
+}
+
+#nav-list {
+    background-color: #f8e5e5;
+}
+
+#nav-list a {
+    /*text-align: center;*/
+    font-weight: bolder;
+    color: #282828;
+    font-size: 1.2em;
+}
+
+#nav-list a:hover {
+    color: #f8e5e5;
+    background-color: #fa255e;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #ffffff;
+}
+
+
+/** END HEADER */
+
+
+/** HOME PAGE **/
+
+#main-content {
+    width: 92%;
+    margin-bottom: 30px;
+}
+
+#main-content h2 {
+    font-size: 3em;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    color: #000000;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#main-content h3 {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 1em;
+    font-family: 'Source Sans Pro', sans-serif;
+    
+}
+
+#Starters-tile, #Main-Course-tile, #Desserts-tile {
+    width: 100%;
+    padding: 20px;
+    background-color: #fa255e;
+    margin-bottom: 60px;
+    box-shadow: 0 0 80px #a8193f;
+    text-align: justify;
+}
+
+
+/** END HOME PAGE **/
